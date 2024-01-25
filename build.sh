@@ -8,7 +8,7 @@ tmp_dir="$folder/tmp"
 script_dir="META-INF/com/google/android/"
 zip_name="ih8sn-$arch.zip"
 bin_out="$folder/system/bin"
-ndk_version=android-ndk-r25c
+ndk_version=android-ndk-r26b
 nkd_download_link="https://dl.google.com/android/repository/$ndk_version-linux.zip"
 
 declare -A toolchain=(

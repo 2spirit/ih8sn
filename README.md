@@ -46,14 +46,14 @@ Check the "Releases" section on the right. Make sure to download correct zip for
 - aarch64 = arm64
 - armv7a = arm
 
-## 2: Check if your device is supported in system/etc/props.conf.<codename/model> else create new.
+## 2: Check if your device is supported in example_configs dir else create new.
 
 - If your device isn't available in the list then follow below steps to create ih8sn config for your device.
 - If your model has spaces, then it must be replaced with underscore.
 
 ### Configure props.conf for your device.
 
-- Modify props.conf for your device and save it as props.conf.`<codename>` in etc.
+- Create props.conf for your device and save it as props.conf.`<codename>` in etc.
   Example:
 
 ```
